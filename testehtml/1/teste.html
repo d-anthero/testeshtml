@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RECIBO TEST</title>
+    <style>
+      .container {
+        border-style: double;
+        border-width: 5px;
+        border-radius: 10px;
+        border-color: #569269;
+        display: inline-block;
+      }
+
+      .container_header {
+        align-items: normal;
+        border-style: double;
+        border-width: 5px;
+        border-radius: 0px, 0px, 10px;
+        border-color: #569269;
+        max-width: 100%;
+        max-height: 100%;
+      }
+
+      #header_content > img {
+        padding-left: 3px;
+      }
+
+      #header_content > div {
+        background-color: #f1f1f1;
+        margin: 10px;
+        max-width: 100%;
+        max-height: 100%;
+      }
+
+      #header_content > p {
+        font-size: 20px;
+      }
+
+      .container_header > #header_content {
+        display: inline-flex;
+      }
+
+      .container_content > img {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="container_header">
+        <div id="header_content">
+          <img src="imagem.jpg" />
+          <div>Nº: 1000</div>
+          <div>Valor R$: 1100</div>
+        </div>
+      </div>
+      <div class="container_content">
+        <img src="assinatura.jpg" />
+      </div>
+    </div>
+  </body>
+</html>
